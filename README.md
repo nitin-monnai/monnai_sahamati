@@ -19,6 +19,10 @@ For demo purposes, enter any data in input fields whereever necessary.
 
 Currently a _Member Token_ needs to be generated for making calls to Sahamati and secrets are not shared in the application for security reasons, but the pages will be rendered for demo purpose.
 
+If a valid member token can be generated, the token can be made available in src/LandingPages/sahamati/auth/GetAuthKey.js for the demo project to connect to Sahamati for interactions.
+
+The current project connects to Sahamati and uses the Simulator data.
+
 ## Available Scripts
 
 In the project directory, you can run:
