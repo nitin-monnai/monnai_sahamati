@@ -1,0 +1,269 @@
+.onboard-login-container {
+  box-shadow: 0 0 5px rgba(7, 2, 2, 0.355);
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.onboard-grouped {
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f5f2f8;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.onboard-form-group {
+  margin-bottom: 15px;
+}
+
+.onboard-label {
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.onboard-inputbox:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.onboard-inputbox {
+  border-radius: 7px;
+    box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+}
+
+.error-message {
+  margin-bottom: 10px;
+  color: red;
+}
+
+.onboard-login-btn {
+  width: 30%;
+  padding: 10px;
+  background-color: #4d30cd;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+}
+
+.onboard-login-btn:hover {
+  background-color: #5b42cb;
+}
+
+.onboard-info-box {
+  box-shadow: 0 0 10px rgba(7, 2, 2, 0.227);
+  max-width: 50%;
+  margin: 100px auto;
+  padding: 20px;
+  padding-top: 1px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.onboard-sub-back {
+  max-width: 100%;
+  margin: 100px auto;
+  margin-bottom: 0px;
+  margin-top: 1000px;
+  margin-bottom: 0px;
+  padding: 20px;
+  padding-top: 1000px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.192),
+    rgba(105, 194, 245, 0.875)
+  );
+  /* background-image: linear-gradient(red, yellow); */
+}
+
+.onboard-icon-sub {
+  width: 70px;
+  height: 70px;
+}
+
+.onboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.onboard-tile {
+  width: 120px;
+  height: 175px;
+  margin: 10px;
+  padding: 2px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.onboard-tilename {
+  text-align: center;
+}
+
+.onboard-checkbox {
+  // width: 100%;
+  // margin-left: 85%
+}
+
+/* .icon {
+  width: 70px;
+  height: 70px;
+  margin: 0%;
+  padding-top: 10%;
+} */
+
+.onboard-tile:hover {
+  box-shadow: 0 0 10px rgba(7, 2, 2, 0.227);
+  cursor: pointer;
+}
+
+.onboard-consent-group {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  font-size: 75%;
+  text-align: left;
+}
+
+.onboard-consent-checkbox {
+  width: 15px;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.onboard-consent-checkbox-grayed {
+  accent-color: grey;
+  pointer-events: none;
+  width: 15px;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.centeredElement {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.onboard-enabled-button {
+  margin: 4px 2px;
+  padding: 15px 32px;
+  background-color: #4f0af0;
+  cursor: pointer;
+  border: none;
+  border-radius: 7%;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.onboard-enabled-button:hover {
+  background-color: #6928ff;
+}
+
+.onboard-disabled-button {
+  margin: 4px 2px;
+  padding: 15px 32px;
+  background-color: rgb(241, 242, 247);
+  border: none;
+  border-radius: 7%;
+  font-size: 16px;
+  color: rgb(95, 93, 93);
+  text-align: center;
+  pointer-events: none;
+}
+
+.onboard-proceed-button {
+  margin-left: 15%;
+  padding: 15px 32px;
+  background-color: #4f0af0;
+  cursor: pointer;
+  border: none;
+  border-radius: 7%;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.onboard-proceed-button:hover {
+  background-color: #6928ff;
+}
+
+.onboard-otp_box {
+  width: 30%;
+}
+
+.onboard-otp-container {
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+
+.info-box {
+  box-shadow: 0 0 10px rgba(7, 2, 2, 0.227);
+  max-width: 50%;
+  margin: 100px auto;
+  padding: 20px;
+  padding-top: 1px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+// .logo {
+//   padding-bottom: 40px;
+// }
+
+.onboard-icon {
+  width: 70px;
+  height: 70px;
+  padding: 10%;
+  border-radius: 20px;
+}
+
+.onboard-info-box-consent {
+  box-shadow: 0 0 10px rgba(7, 2, 2, 0.227);
+  max-width: 50%;
+  margin: 100px auto;
+  padding: 20px;
+  padding-top: 1px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+// .icon-gig {
+//   width: 70px;
+//   height: 70px;
+//   margin-top: 20%;
+//   padding: 10%;
+//   border-radius: 20px;
+// }
+
+
+.align-right {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: end;
+}
